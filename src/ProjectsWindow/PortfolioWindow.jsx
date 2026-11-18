@@ -47,7 +47,9 @@ const PortfolioWindow = ({
     dragRef.current = null;
   };
 
-  const githubLink = "https://github.com/abhishek-akkal";
+  const liveWebsite = "https://portfolio-ten-dusky-25.vercel.app/";
+  const githubRepo = "https://github.com/abhishek-akkal/Portfolio";
+  const projectPreview = "https://lnkd.in/p/gghadDPN";
 
   const features = [
     "Computer-Inspired Desktop Interface",
@@ -195,7 +197,7 @@ const PortfolioWindow = ({
           <div className="flex flex-col gap-3">
             {/* Live Website */}
             <a
-              href={githubLink}
+              href={liveWebsite}
               target="_blank"
               rel="noopener noreferrer"
               className="flex cursor-none items-center gap-3 border border-blue-300/30 bg-blue-300/5 p-3 transition-colors hover:border-blue-300 hover:bg-blue-300/10"
@@ -214,7 +216,7 @@ const PortfolioWindow = ({
 
             {/* GitHub Repository */}
             <a
-              href={githubLink}
+              href={githubRepo}
               target="_blank"
               rel="noopener noreferrer"
               className="flex cursor-none items-center gap-3 border border-blue-300/30 bg-blue-300/5 p-3 transition-colors hover:border-blue-300 hover:bg-blue-300/10"
@@ -233,7 +235,7 @@ const PortfolioWindow = ({
 
             {/* Project Preview */}
             <a
-              href={githubLink}
+              href={projectPreview}
               target="_blank"
               rel="noopener noreferrer"
               className="flex cursor-none items-center gap-3 border border-blue-300/30 bg-blue-300/5 p-3 transition-colors hover:border-blue-300 hover:bg-blue-300/10"
